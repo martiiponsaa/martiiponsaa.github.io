@@ -390,6 +390,7 @@
 }
 
 .tech-tag {
+  list-style-type: none;
   background: rgba(0, 217, 255, 0.1);
   color: var(--accent-cyan);
   padding: 0.3rem 0.8rem;
