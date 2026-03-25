@@ -68,6 +68,12 @@ function App() {
       description: 'This project involved the creation of a role-playing game set in a fantasy world. The player assumes the role of a hero tasked with collecting key fragments to enter the underworld and defeat Death. The game features interactive scenarios, a turn-based combat system, enemies with customized abilities, and an immersive narrative enhanced with ASCII art and aesthetic improvements for an engaging user experience.',
       tech: ['C', 'JSON', 'Data Structures', 'Algorithms', 'Game Design'],
       icon: '🎮'
+    },
+    {
+      title: 'More Projects Coming Soon',
+      description: 'This is not the full list of projects. Some projects are placeholders and more detailed information will be added soon.',
+      tech: ['To Be Updated'],
+      icon: '⏳'
     }
   ]
 
