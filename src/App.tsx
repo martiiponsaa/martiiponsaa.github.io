@@ -31,11 +31,11 @@ function App() {
     { name: 'Java', level: 90 },
     { name: 'Python', level: 85 },
     { name: 'SQL', level: 80 },
-    { name: 'C/C++', level: 75 },
-    { name: 'React', level: 85 },
-    { name: 'TypeScript', level: 80 },
-    { name: 'HTML', level: 95 },
-    { name: 'CSS', level: 90 },
+    { name: 'C/C++', level: 90 },
+    { name: 'React', level: 55 },
+    { name: 'TypeScript', level: 55 },
+    { name: 'HTML', level: 55 },
+    { name: 'CSS', level: 55 },
   ]
 
   const projects = [
@@ -255,14 +255,16 @@ function App() {
               <span className="link-icon">💻</span>
               <span>GitHub</span>
             </a>
+            {/* LinkedIn not configured yet - commented out for now
             <a href="https://linkedin.com/in/martiiponsaa" target="_blank" rel="noopener noreferrer" className="contact-link">
               <span className="link-icon">💼</span>
               <span>LinkedIn</span>
             </a>
-            <a href="mailto:marti.ponsa@example.com" className="contact-link">
+            */}
+            <div className="contact-link" style={{flexDirection: 'row', alignItems: 'center', minWidth: 'auto', padding: '1rem'}}>
               <span className="link-icon">📧</span>
-              <span>Email</span>
-            </a>
+              <span>marti.ponsa01@estudiant.upf.edu</span>
+            </div>
           </div>
         </div>
       </section>
