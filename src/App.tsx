@@ -218,11 +218,13 @@ function App() {
                 <span className="cert-skill">Incident Response</span>
               </div>
             </div>
-            <div className="cert-card">
+            <div className="cert-card featured">
               <div className="cert-badge">
                 <div className="badge-icon">🎓</div>
               </div>
               <h3>Cyber 360: Attack, Intelligence, Impact & Evidence</h3>
+
+              <p className="cert-status">Completed</p>
 
               <p>Universitat Pompeu Fabra – Càtedra ARTEMISA – UPF | In collaboration with OnbrandinG</p>
               <p>March 2026</p>
