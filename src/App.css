@@ -400,9 +400,9 @@
 
 /* Certifications Section */
 .cert-content {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
 }
 
 .cert-card {
