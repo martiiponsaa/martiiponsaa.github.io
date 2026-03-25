@@ -82,6 +82,39 @@ function App() {
       icon: '👾'
     },
     {
+      title: 'Guitar Sound Reconstruction',
+      description: 'Reconstructed a guitar sound using mathematical techniques, including FIR and IIR filters, sinusoidal synthesis, and envelope extraction. The project involved Python-based signal processing and audio synthesis.',
+      tech: ['Python', 'NumPy', 'SciPy', 'Matplotlib', 'Audio Processing'],
+      teamSize: 3,
+      icon: '🎸'
+    },
+    {
+      title: 'Introduction to Parallel and Distributed Programming',
+      description: 'Explored parallel and distributed programming concepts, including OpenMP, MPI, and GPU programming. Tasks included Cholesky decomposition, histogram computation, Monte Carlo simulations, vector addition, matrix multiplication, and particle simulations.',
+      technologies: ['C++', 'OpenMP', 'MPI', 'CUDA', 'Parallel Computing'],
+      teamSize: 3,
+      icon: '⚙️'
+    },
+    {
+      title: "Large Scale Distributed Systems (LSDS)",
+      description: "Explored distributed systems concepts through projects on HDFS, MapReduce, Spark RDD, and Kafka. The course emphasized Docker-based setups, adherence to coding standards (PEP8, black), and collaborative development practices.",
+      technologies: ["Python", "Docker", "FastAPI", "HDFS", "MapReduce", "Spark", "Kafka"],
+      teamSize: 3,
+      icon: "📦"
+    },
+    {
+      title: "Compiler Front-End Development",
+      description: "Developed the front-end of a compiler, focusing on a C preprocessor, lexical analysis, and bottom-up parsing. Implemented features such as directive handling, tokenization, and shift/reduce parsing for a simplified grammar. The project emphasized modular design, error handling, and adherence to coding standards.",
+      technologies: ["C", "CMake", "Compiler Design", "Lexical Analysis", "Parsing"],
+      teamSize: 6
+    },
+    {
+      title: "Cold Skin - 2D RPG Demo",
+      description: "Developed a 2D top-down RPG demo inspired by the film 'Cold Skin' using Unity. The game features exploration, interaction systems, NPC schedules, dialogue systems, environmental audio, and combat mechanics. As the main developer, I implemented core gameplay systems and contributed to the Game Design Document (GDD).",
+      technologies: ["Unity", "C#", "Game Design", "Environmental Audio", "Dialogue Systems"],
+      teamSize: 4
+    },
+    {
       title: 'More Projects Coming Soon',
       description: 'This is not the full list of projects. Some projects are placeholders and more detailed information will be added soon.',
       tech: ['To Be Updated'],
@@ -210,7 +243,7 @@ function App() {
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
                 <ul className="project-tech">
-                  {project.tech.map(tech => (
+                  {project.tech?.map(tech => (
                     <li key={tech} className="tech-tag">{tech}</li>
                   ))}
                 </ul>
