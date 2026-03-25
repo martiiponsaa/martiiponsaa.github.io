@@ -218,6 +218,30 @@ function App() {
                 <span className="cert-skill">Incident Response</span>
               </div>
             </div>
+            <div className="cert-card">
+              <div className="cert-badge">
+                <div className="badge-icon">🎓</div>
+              </div>
+              <h3>Ciber 360: Ataque, Inteligencia, Impacto y Evidencia</h3>
+              <p className="cert-meta">23-03-2026 15:00</p>
+              <p className="cert-meta">Universitat Pompeu Fabra | Edifici Roc Boronat, Carrer de Roc Boronat, Barcelona, Espanya</p>
+              <p className="cert-organizer">Organizado por Càtedra ARTEMISA - UPF (INCIBE) i OnbrandinG</p>
+              <p className="cert-status">La inscripción ha finalizado.</p>
+              <p className="cert-description">
+                La Càtedra Artemisa – UPF, en colraboración con OnbrandinG (Campus OndemanD) y eHub, organiza un programa intensivo de ciberseguridad diseñado para comprender cómo se gestiona un incidente digital real de principio a fin: desde el ataque hasta el impacto reputacional y de negocio, pasando por la inteligencia y el análisis forense.
+              </p>
+              <p className="cert-description">
+                Este curso presencial gratuito de cuatro sesiones, con un enfoque práctico (hands-on), se basa en escenarios reales, casos judiciales y ejemplos del mundo profesional. Complementa la formación universitaria y permite conectar conceptos técnicos con situaciones reales que se encuentran en empresas y organizaciones públicas.
+              </p>
+              <p className="cert-description">
+                Qué aprenderás: Impacto – Gestión reputacional y continuidad de negocio; Inteligencia – Threat Intelligence; Evidencia – Informática forense; Ataque – Red Teaming y mentalidad ofensiva.
+              </p>
+              <div className="cert-actions">
+                <button disabled className="btn-secondary">Inscribirse</button>
+                <a href="#contact" onClick={() => scrollToSection('contact')} className="contact-link" style={{marginLeft: '1rem'}}>Contacto</a>
+              </div>
+              <p className="cert-note">I did the course with the CEO and other personal from the brand Onbranding.</p>
+            </div>
           </div>
         </div>
       </section>
