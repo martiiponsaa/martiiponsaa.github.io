@@ -41,33 +41,45 @@ function App() {
   const projects = [
     {
       title: 'Python Automation Suite',
-      description: 'Collection of automation scripts for data processing, file management, and workflow optimization.',
+      description: 'Collection of automation scripts for data processing, file management, and workflow optimization. Developed individually.',
       tech: ['Python', 'Pandas', 'Automation'],
       icon: '🐍'
     },
     {
-      title: 'C Game Collection',
-      description: 'Classic games implemented in C, including Snake, Tetris, and custom arcade-style games.',
-      tech: ['C', 'Game Development', 'Algorithms'],
-      icon: '🎮'
-    },
-    {
       title: 'Web Applications',
-      description: 'Modern web applications built with React and TypeScript, featuring responsive design and smooth UX.',
+      description: 'Modern web applications built with React and TypeScript, featuring responsive design and smooth UX. Developed individually.',
       tech: ['React', 'TypeScript', 'CSS'],
       icon: '🌐'
     },
     {
       title: 'Cybersecurity Tools',
-      description: 'Security analysis tools and scripts for network scanning and vulnerability assessment.',
+      description: 'Security analysis tools and scripts for network scanning and vulnerability assessment. Developed individually.',
       tech: ['Python', 'Security', 'Networking'],
       icon: '🔒'
     },
     {
       title: 'Data Structures and Algorithms II - 2023-2024',
-      description: 'This project involved the creation of a role-playing game set in a fantasy world. The player assumes the role of a hero tasked with collecting key fragments to enter the underworld and defeat Death. The game features interactive scenarios, a turn-based combat system, enemies with customized abilities, and an immersive narrative enhanced with ASCII art and aesthetic improvements for an engaging user experience.',
+      description: 'This project involved the creation of a role-playing game set in a fantasy world. The player assumes the role of a hero tasked with collecting key fragments to enter the underworld and defeat Death. The game was developed in teams of 3 and features interactive scenarios, a turn-based combat system, enemies with customized abilities, and an immersive narrative enhanced with ASCII art and aesthetic improvements for an engaging user experience.',
       tech: ['C', 'JSON', 'Data Structures', 'Algorithms', 'Game Design'],
       icon: '🎮'
+    },
+    {
+      title: 'Blockchain Auction Smart Contract',
+      description: 'Developed a decentralized sealed-bid auction smart contract for distributing software API keys to the highest bidders. The project was developed in teams of 5 and ensures bid privacy, fund security, and immutable transparency using blockchain technology.',
+      tech: ['Blockchain', 'Smart Contracts', 'Cryptography', 'Ethereum'],
+      icon: '🔗'
+    },
+    {
+      title: 'Computer Graphics - OpenGL Engine',
+      description: 'Developed a basic OpenGL graphics engine in teams of 2. Implemented a render pipeline in C++ and GLSL 1.20, including custom shaders, perspective camera, tangent calculations, and 3D transforms.',
+      tech: ['C++', 'OpenGL', 'GLSL', '3D Graphics'],
+      icon: '🖼️'
+    },
+    {
+      title: 'Pacman AI Agent',
+      description: 'Developed in teams of 2, this project involved creating an AI agent for a Pacman competition against other teams and universities. The agent was implemented using Python and designed to make strategic decisions in a multi-agent environment. The project included search algorithms, multi-agent systems, and reinforcement learning techniques.',
+      tech: ['Python', 'AI', 'Reinforcement Learning', 'Multi-Agent Systems'],
+      icon: '👾'
     },
     {
       title: 'More Projects Coming Soon',
