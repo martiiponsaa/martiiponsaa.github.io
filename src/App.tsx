@@ -106,13 +106,15 @@ function App() {
       title: "Compiler Front-End Development",
       description: "Developed the front-end of a compiler, focusing on a C preprocessor, lexical analysis, and bottom-up parsing. Implemented features such as directive handling, tokenization, and shift/reduce parsing for a simplified grammar. The project emphasized modular design, error handling, and adherence to coding standards.",
       technologies: ["C", "CMake", "Compiler Design", "Lexical Analysis", "Parsing"],
-      teamSize: 6
+      teamSize: 6,
+      icon: "🖥️"
     },
     {
       title: "Cold Skin - 2D RPG Demo",
       description: "Developed a 2D top-down RPG demo inspired by the film 'Cold Skin' using Unity. The game features exploration, interaction systems, NPC schedules, dialogue systems, environmental audio, and combat mechanics. As the main developer, I implemented core gameplay systems and contributed to the Game Design Document (GDD).",
       technologies: ["Unity", "C#", "Game Design", "Environmental Audio", "Dialogue Systems"],
-      teamSize: 4
+      teamSize: 4,
+      icon: "🎮"
     },
     {
       title: 'More Projects Coming Soon',
