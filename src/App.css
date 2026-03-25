@@ -402,14 +402,11 @@
 .cert-content {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .cert-card {
-  background: var(--bg-card);
-  padding: 2.5rem;
-  border-radius: 12px;
-  border: 1px solid rgba(0, 217, 255, 0.1);
+  border: 2px solid var(--accent-cyan);
   max-width: 600px;
   text-align: center;
   transition: all 0.3s ease;
@@ -502,6 +499,12 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact-note {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
 }
 
 .contact-links {

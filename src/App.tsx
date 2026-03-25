@@ -218,11 +218,11 @@ function App() {
                 <span className="cert-skill">Incident Response</span>
               </div>
             </div>
-            <div className="cert-card featured">
+            <div className="cert-card">
               <div className="cert-badge">
                 <div className="badge-icon">🎓</div>
               </div>
-              <h3>Cyber 360: Attack, Intelligence, Impact & Evidence</h3>
+              <h3 style={{ color: 'var(--accent-cyan)' }}>Cyber 360: Attack, Intelligence, Impact & Evidence</h3>
 
               <p className="cert-status">Completed</p>
 
@@ -252,6 +252,7 @@ function App() {
           <p className="contact-description">
             Interested in collaborating or want to know more? Feel free to reach out!
           </p>
+          <p className="contact-note">Open to internships, collaborations, and software engineering opportunities.</p>
           <div className="contact-links">
             <a href="https://github.com/martiiponsaa" target="_blank" rel="noopener noreferrer" className="contact-link">
               <span className="link-icon">💻</span>
