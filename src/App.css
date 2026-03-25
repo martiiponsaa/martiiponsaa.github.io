@@ -412,15 +412,18 @@
   max-width: 600px;
   text-align: center;
   transition: all 0.3s ease;
+  box-shadow: 0 18px 40px rgba(0, 217, 255, 0.06);
 }
 
 .cert-card.featured {
   border: 2px solid var(--accent-cyan);
+  /* keep the same subtle glow as other cards */
+  box-shadow: 0 18px 40px rgba(0, 217, 255, 0.06);
 }
 
 .cert-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 50px rgba(0, 217, 255, 0.3);
+  box-shadow: 0 22px 60px rgba(0, 217, 255, 0.18);
 }
 
 .cert-badge {
@@ -456,6 +459,18 @@
   color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 1.5rem;
+}
+
+/* Certification lists: keep bullets and text left-aligned while centering the list block */
+.cert-card ul {
+  text-align: left;
+  display: inline-block;
+  margin: 0.5rem 0 1.5rem;
+  padding-left: 1.25rem;
+}
+
+.cert-card ul li {
+  margin-bottom: 0.35rem;
 }
 
 .cert-skills {
