@@ -62,6 +62,12 @@ function App() {
       description: 'Security analysis tools and scripts for network scanning and vulnerability assessment.',
       tech: ['Python', 'Security', 'Networking'],
       icon: '🔒'
+    },
+    {
+      title: 'Data Structures and Algorithms II - 2023-2024',
+      description: 'This project involved the creation of a role-playing game set in a fantasy world. The player assumes the role of a hero tasked with collecting key fragments to enter the underworld and defeat Death. The game features interactive scenarios, a turn-based combat system, enemies with customized abilities, and an immersive narrative enhanced with ASCII art and aesthetic improvements for an engaging user experience.',
+      tech: ['C', 'JSON', 'Data Structures', 'Algorithms', 'Game Design'],
+      icon: '🎮'
     }
   ]
 
@@ -185,11 +191,11 @@ function App() {
                 <div className="project-icon">{project.icon}</div>
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
-                <div className="project-tech">
+                <ul className="project-tech">
                   {project.tech.map(tech => (
-                    <span key={tech} className="tech-tag">{tech}</span>
+                    <li key={tech} className="tech-tag">{tech}</li>
                   ))}
-                </div>
+                </ul>
               </div>
             ))}
           </div>
@@ -229,7 +235,7 @@ function App() {
               <p>Universitat Pompeu Fabra – Càtedra ARTEMISA – UPF | In collaboration with OnbrandinG</p>
               <p>March 2026</p>
 
-              <p>Completed an intensive, hands-on cybersecurity program focused on the full lifecycle of real-world cyber incidents—from attack execution to business and reputational impact, including threat intelligence and digital forensics.</p>
+              <p>Completed an intensive, hands-on cybersecurity program focused on the full lifecycle of real-world cyber incidents from attack execution to business and reputational impact, including threat intelligence and digital forensics.</p>
 
               <p>Core competencies developed:</p>
               <ul>
