@@ -223,19 +223,21 @@ function App() {
                 <div className="badge-icon">🎓</div>
               </div>
               <h3>Cyber 360: Attack, Intelligence, Impact & Evidence</h3>
-              <p className="cert-meta">Universitat Pompeu Fabra – Càtedra ARTEMISA – UPF | In collaboration with OnbrandinG</p>
-              <p className="cert-meta">March 2026</p>
-              <p className="cert-description">
-                Completed an intensive, hands-on cybersecurity program focused on the full lifecycle of real-world cyber incidents—from attack execution to business and reputational impact, including threat intelligence and digital forensics.
-              </p>
-              <p className="cert-description"><strong>Core competencies developed:</strong></p>
-              <ul className="cert-list">
+
+              <p>Universitat Pompeu Fabra – Càtedra ARTEMISA – UPF | In collaboration with OnbrandinG</p>
+              <p>March 2026</p>
+
+              <p>Completed an intensive, hands-on cybersecurity program focused on the full lifecycle of real-world cyber incidents—from attack execution to business and reputational impact, including threat intelligence and digital forensics.</p>
+
+              <p>Core competencies developed:</p>
+              <ul>
                 <li>Threat Intelligence analysis</li>
                 <li>Digital forensics and evidence handling</li>
                 <li>Red Teaming and offensive security mindset</li>
                 <li>Incident impact assessment and business continuity</li>
               </ul>
-              <p className="cert-note">Completed alongside the CEO and team members of OnbrandinG, gaining direct exposure to real industry practices.</p>
+
+              <p>Completed alongside the CEO and team members of OnbrandinG, gaining direct exposure to real industry practices.</p>
             </div>
           </div>
         </div>
