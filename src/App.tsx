@@ -317,7 +317,7 @@ function App() {
               <span className="link-icon">💻</span>
               <span>GitHub</span>
             </a>
-            {/* LinkedIn not configured yet - commented out for now
+            {/* LinkedIn not configured yet -  commented out for now
             <a href="https://linkedin.com/in/martiiponsa" target="_blank" rel="noopener noreferrer" className="contact-link">
               <span className="link-icon">💼</span>
               <span>LinkedIn</span>
